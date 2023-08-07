@@ -1,0 +1,23 @@
+.btn {
+    cursor: pointer;
+    color: #FFF;
+    padding: .75rem 1.2rem;
+    display: inline-block;
+}
+
+.modal:link,
+.modal:visited {
+    color: #FFF;
+    text-decoration: none;
+    transition: all .3s ease;
+
+}
+
+.modal:hover,
+.modal:active {
+    background-color: rgb(101, 6, 141, .25);
+    transform: scale(1.25);
+    border-radius: 10px;
+    padding: 8px 15px;
+    transition: all .3s ease;
+}

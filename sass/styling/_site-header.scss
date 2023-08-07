@@ -1,0 +1,21 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(190, 139, 212, .3);
+    box-shadow: 10px 10px 8px #cecbcb;
+
+    &__container {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 8rem;
+        padding: 0;
+    }
+
+}
