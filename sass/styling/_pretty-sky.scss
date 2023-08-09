@@ -1,0 +1,45 @@
+.pretty-sky {
+    position: fixed;
+    /* Adjust this to your preference */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+}
+
+.main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.headerColor {
+    color: $mainPurple;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+
+}
+
+.font-bold {
+    letter-spacing: 2px;
+
+    &__main {
+        color: #e66eec;
+        font-size: 150%;
+        font-weight: 500;
+    }
+}

@@ -1,24 +1,89 @@
 .btn {
   cursor: pointer;
   color: #FFF;
+  font-weight: 700;
   padding: 0.75rem 1.2rem;
   display: inline-block;
 }
 
+.btn2 {
+  background-color: #be8bd4;
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #FFF;
+  padding: 0.85rem 2.13rem;
+  border-radius: 10px;
+  border: 0;
+  transition: 0.2s ease-out;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn2:hover,
+.btn2:active {
+  transform: scale(1.05);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 10px 0 rgb(243, 193, 236);
+  cursor: pointer;
+}
+
 .modal:link,
 .modal:visited {
-  color: #FFF;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .modal:hover,
 .modal:active {
-  background-color: rgba(101, 6, 141, 0.25);
-  transform: scale(1.25);
+  background-color: #be8bd4;
+  backface-visibility: hidden;
+  transform: scale(1.15);
   border-radius: 10px;
-  padding: 8px 15px;
   transition: all 0.3s ease;
+}
+
+.pretty-sky {
+  position: fixed;
+  /* Adjust this to your preference */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-size: cover;
+}
+
+.main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.headerColor {
+  color: #be8bd4;
+  font-size: 150%;
+  font-weight: 500;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+.font-bold {
+  letter-spacing: 2px;
+}
+.font-bold__main {
+  color: #e66eec;
+  font-size: 150%;
+  font-weight: 500;
 }
 
 html,
@@ -31,8 +96,8 @@ body {
   padding: 10px 0;
   position: absolute;
   width: 100%;
-  background-color: rgba(190, 139, 212, 0.3);
-  box-shadow: 10px 10px 8px #cecbcb;
+  background-color: rgba(220, 173, 240, 0.3);
+  box-shadow: 0 10px 10px 0 #cfb4e0;
 }
 .site-header__container {
   display: flex;
