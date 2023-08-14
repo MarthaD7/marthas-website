@@ -93,20 +93,28 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1;
   background-size: cover;
 }
 
-.main-text {
+.content-container {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  /* Enable scrolling for content */
+}
+
+.main-text {
+  position: relative;
+  margin: 0 auto;
+  /* Center horizontally */
+  padding: 2rem;
+  /* Add padding for better readability */
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   text-transform: uppercase;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .headerColor {
