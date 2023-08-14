@@ -21,7 +21,6 @@
 
 .btn2:hover,
 .btn2:active {
-  transform: scale(1.05);
   border-radius: 10px;
   transition: all 0.3s ease;
   box-shadow: 0 10px 10px 0 rgb(243, 193, 236);
@@ -38,7 +37,6 @@
 .modal:active {
   background-color: #be8bd4;
   backface-visibility: hidden;
-  transform: scale(1.15);
   border-radius: 10px;
   transition: all 0.3s ease;
 }
@@ -87,26 +85,39 @@
   color: #fff;
 }
 
+.pink {
+  background-image: url("/images/main-pic.jpg");
+  background-size: cover;
+  /* Adjust this property as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(220, 173, 240, 0.3);
+  height: 100vh;
+  padding: 2rem;
+}
+
 .pretty-sky {
-  position: fixed;
+  height: 700px;
+  background-size: contain;
+  background-image: url("images/pretty-sky.jpg");
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1;
-  background-size: cover;
+  overflow: auto;
+  /* Enable scrolling for content */
 }
 
 .main-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  display: grid;
+  justify-items: center;
 }
 
 .headerColor {
@@ -138,16 +149,14 @@ body {
   min-height: 100vh;
 }
 
-.site-header {
+.navbar {
   position: absolute;
-  padding: 10px 0;
-  width: 100%;
   background-color: rgba(220, 173, 240, 0.3);
   box-shadow: 0 10px 10px 0 #cfb4e0;
+  width: 100%;
+  display: grid;
+  justify-content: end;
 }
-.site-header__container {
-  display: flex;
-  justify-content: flex-end;
-  margin: 0 8rem;
-  padding: 0;
+.navbar .button-wrapper {
+  margin-right: 100px;
 }

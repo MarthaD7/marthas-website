@@ -1,0 +1,23 @@
+{
+    "name": "martha-example",
+    "version": "1.0.0",
+    "description": "Training Martha on starting a project",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass --no-source-map --watch ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DesignBySite/Martha-example.git"
+    },
+    "author": "Kevin Nielsen",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DesignBySite/Martha-example/issues"
+    },
+    "homepage": "https://github.com/DesignBySite/Martha-example#readme",
+    "devDependencies": {
+        "sass": "^1.64.1"
+    }
+}
