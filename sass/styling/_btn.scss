@@ -21,7 +21,6 @@
 
 .btn2:hover,
 .btn2:active {
-    // transform: scale(1.05);
     border-radius: 10px;
     transition: all .3s ease;
     box-shadow: 0 10px 10px 0 rgb(243, 193, 236);
@@ -39,7 +38,6 @@
 .modal:active {
     background-color: $mainPurple;
     backface-visibility: hidden;
-    // transform: scale(1.15);
     border-radius: 10px;
     transition: all .3s ease;
 }
