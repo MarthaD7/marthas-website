@@ -21,7 +21,6 @@
 
 .btn2:hover,
 .btn2:active {
-  transform: scale(1.05);
   border-radius: 10px;
   transition: all 0.3s ease;
   box-shadow: 0 10px 10px 0 rgb(243, 193, 236);
@@ -38,7 +37,6 @@
 .modal:active {
   background-color: #be8bd4;
   backface-visibility: hidden;
-  transform: scale(1.15);
   border-radius: 10px;
   transition: all 0.3s ease;
 }
@@ -99,12 +97,12 @@
 }
 
 .pretty-sky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-size: cover;
+  height: 700px;
+  background-size: contain;
+  background-image: url("images/pretty-sky.jpg");
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .content-container {
@@ -118,14 +116,8 @@
 }
 
 .main-text {
-  position: relative;
-  margin: 0 auto;
-  /* Center horizontally */
-  padding: 2rem;
-  /* Add padding for better readability */
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  text-transform: uppercase;
+  display: grid;
+  justify-items: center;
 }
 
 .headerColor {
@@ -157,16 +149,14 @@ body {
   min-height: 100vh;
 }
 
-.site-header {
+.navbar {
   position: absolute;
-  padding: 10px 0;
-  width: 100%;
   background-color: rgba(220, 173, 240, 0.3);
   box-shadow: 0 10px 10px 0 #cfb4e0;
+  width: 100%;
+  display: grid;
+  justify-content: end;
 }
-.site-header__container {
-  display: flex;
-  justify-content: flex-end;
-  margin: 0 8rem;
-  padding: 0;
+.navbar .button-wrapper {
+  margin-right: 100px;
 }
