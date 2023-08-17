@@ -1,0 +1,29 @@
+.whole {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    background-color: $mainLavender;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-shadow: 0 0 40px rgb(241, 171, 219);
+}
+
+.side-by-side {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 100px;
+}
+
+.dev {
+    margin: 40px 150px;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+}
+
+.paragraph {
+    margin: 20px 50px;
+    color: gray;
+}
