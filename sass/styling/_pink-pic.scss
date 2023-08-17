@@ -1,10 +1,40 @@
-.pink {
-    background-image: url('/images/main-pic.jpg');
-    background-size: cover;
-    /* Adjust this property as needed */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgba(220, 173, 240, 0.3);
-    height: 100vh;
-    padding: 2rem;
+#marthaPinkProfile {
+    width: 400px;
+    border-radius: 100px;
+    box-shadow: 0 0 40px rgb(241, 171, 219);
 }
+
+.pink {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 70px;
+}
+
+.name {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: gray;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.web {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.icon {}
