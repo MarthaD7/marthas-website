@@ -1,0 +1,89 @@
+.popup {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(black, .8);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+
+    &:target {
+        opacity: 1;
+        visibility: visible
+    }
+
+    &:target &__content {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    &__text {
+        align-self: center;
+        color: $mainWhite;
+        letter-spacing: 2px;
+        font-weight: 100;
+        margin-right: 30px;
+        font-size: 1.05rem;
+    }
+
+    &__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 75%;
+        background-color: rgb(233, 183, 227);
+        box-shadow: 0 2rem 4rem rgba(207, 203, 203, .2);
+        border-radius: 3px;
+        display: table;
+        overflow: hidden;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(.25);
+        transition: all .5s .2s;
+    }
+
+    &__close {
+        color: $mainPurple;
+        position: absolute;
+        top: 9px;
+        right: 1rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+        display: inline-block;
+        transition: all .2s;
+        line-height: 1;
+
+
+        &:hover {
+            color: black;
+        }
+    }
+
+    .popup-right {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .natours {
+        font-weight: 200;
+        color: $mainWhite;
+        text-align: center;
+    }
+
+    .imagesmall {
+        width: 250px;
+        margin-left: 2rem;
+        margin-top: 2.5rem;
+    }
+
+    .visit {
+        cursor: pointer;
+        color: $mainWhite;
+        display: inline-block;
+        text-decoration: none;
+    }
+}

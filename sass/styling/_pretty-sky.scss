@@ -29,9 +29,13 @@
 }
 
 .hr-light {
-    border-top: 3px solid #fff;
+    border-top: 3px solid $mainWhite;
     width: 80px;
 
+}
+
+.hr-light-2 {
+    border-top: 0.5px solid $mainGrey;
 }
 
 .font-bold {

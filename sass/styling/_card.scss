@@ -1,0 +1,26 @@
+.some-box {
+    background-color: $mainPurple;
+    box-shadow: 0 0 40px rgb(223, 158, 241);
+}
+
+.some {
+    text-align: center;
+    letter-spacing: .2rem;
+    font-weight: 500;
+    color: $mainWhite;
+    font-size: 2rem;
+    padding: 25px;
+}
+
+.project-tours {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+    padding: 10px;
+}
+
+.image {
+    width: $grid-image-size;
+    box-shadow: 0 0 40px rgb(67, 65, 65);
+}
