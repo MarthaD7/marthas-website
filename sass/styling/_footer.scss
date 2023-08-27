@@ -16,6 +16,24 @@
     }
 }
 
+.footer {
+    text-align: center;
+    background-color: $mainLavender;
+    padding-top: 4.5rem;
+    box-shadow: 0 0 40px rgb(241, 171, 219);
+}
+
+.footer-links {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+
 .footer-copyright {
     position: absolute;
     left: 0px;
@@ -25,7 +43,15 @@
     text-align: center;
     color: #fff;
     padding: 1rem 0;
+}
 
+.footer-copyright-2 {
+    text-align: center;
+    color: $mainWhite;
+    background-color: $mainPurple;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0 0 40px rgb(223, 158, 241);
 }
 
 .container {
@@ -44,4 +70,10 @@
 
 .fa {
     color: #fff;
+}
+
+.social {
+    margin-top: -3.5rem;
+    color: $mainWhite;
+    font-size: 1.3rem;
 }
