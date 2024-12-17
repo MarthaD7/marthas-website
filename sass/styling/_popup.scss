@@ -22,11 +22,10 @@
 
     &__text {
         align-self: center;
-        color: $mainWhite;
-        letter-spacing: 2px;
+        color: $dark-purple-font;
         font-weight: 100;
         margin-right: 30px;
-        font-size: 1.05rem;
+        font-size: 1.15rem;
     }
 
     &__content {
@@ -34,7 +33,7 @@
         top: 50%;
         left: 50%;
         width: 75%;
-        background-color: rgb(233, 183, 227);
+        background-color: $main-white-background;
         box-shadow: 0 2rem 4rem rgba(207, 203, 203, .2);
         border-radius: 3px;
         display: table;
@@ -45,7 +44,7 @@
     }
 
     &__close {
-        color: $mainPurple;
+        color: $dark-purple-font;
         position: absolute;
         top: 9px;
         right: 1rem;
@@ -70,7 +69,7 @@
 
     .natours {
         font-weight: 200;
-        color: $mainWhite;
+        color: $dark-purple-font;
         text-align: center;
     }
 
@@ -82,7 +81,7 @@
 
     .visit {
         cursor: pointer;
-        color: $mainWhite;
+        color: $dark-purple-font;
         display: inline-block;
         text-decoration: none;
     }

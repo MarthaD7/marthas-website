@@ -4,13 +4,13 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-color: $mainLavender;
+    background-color: $main-gold-background;
 }
 
 .navbar {
     position: absolute;
-    background-color: $mainLavender;
-    box-shadow: 0 10px 10px 0 #cfb4e0;
+    background-color: $main-gold-background;
+    box-shadow: 0 10px 10px 0 #bca576;
     width: 100%;
     display: grid;
     justify-content: end;

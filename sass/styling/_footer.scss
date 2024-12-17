@@ -3,24 +3,24 @@
     padding: 10px;
     left: 0px;
     bottom: 3rem;
-    height: 8.5rem;
+    height: 6.5rem;
     width: 100%;
-    background: #efcaed;
+    background: $main-gold-background;
 
     &__text {
         display: block;
         margin-bottom: 1rem;
         font-weight: 200;
         text-align: center;
-        color: #fff;
+        color: $dark-purple-font;
     }
 }
 
 .footer {
     text-align: center;
-    background-color: $mainLavender;
+    background-color: $main-gold-background;
     padding-top: 4.5rem;
-    box-shadow: 0 0 40px rgb(241, 171, 219);
+    box-shadow: 20px 20px 50px 25px $main-gold-background;
 }
 
 .footer-links {
@@ -39,19 +39,20 @@
     left: 0px;
     bottom: 0px;
     width: 100%;
-    background-color: $mainPurple;
+    background-color: #ad9a73;
     text-align: center;
-    color: #fff;
+    color: $dark-purple-font;
     padding: 1rem 0;
+    box-shadow: 0 0 40px #9f8b63;
 }
 
 .footer-copyright-2 {
     text-align: center;
-    color: $mainWhite;
-    background-color: $mainPurple;
+    color: $dark-purple-font;
+    background-color: #ad9a73;
     padding-top: 1px;
     padding-bottom: 1px;
-    box-shadow: 0 0 40px rgb(223, 158, 241);
+    box-shadow: 0 0 40px #9f8b63;
 }
 
 .container {
@@ -61,10 +62,10 @@
     gap: 10px;
 
     .container--1,
-    .container--2,
-    .container--3 {
+    .container--2 {
         margin: 9px 50px;
-
+        font-size: .80rem;
+        color: $dark-purple-font;
     }
 }
 
@@ -74,6 +75,6 @@
 
 .social {
     margin-top: -3.5rem;
-    color: $mainWhite;
+    color: $dark-purple-font;
     font-size: 1.3rem;
 }

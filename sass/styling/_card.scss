@@ -1,6 +1,6 @@
 .some-box {
-    background-color: $mainPurple;
-    box-shadow: 0 0 40px rgb(223, 158, 241);
+    background-color: $main-gold-background;
+    box-shadow: 0 0 40px #bca576;
     padding-bottom: 5rem;
 }
 
@@ -8,7 +8,7 @@
     text-align: center;
     letter-spacing: .2rem;
     font-weight: 500;
-    color: $mainWhite;
+    color: $dark-purple-font;
     font-size: 2rem;
     padding: 25px;
 }

@@ -1,7 +1,7 @@
-.pretty-sky {
-    height: 700px;
-    background-size: contain;
-    background-image: url("images/pretty-sky.jpg");
+.entrance {
+    height: 600px;
+    background-size: cover;
+    background-image: url("images/entrance.jpg");
     display: grid;
     justify-content: center;
     align-items: center;
@@ -20,30 +20,31 @@
 .main-text {
     display: grid;
     justify-items: center;
+    margin-left: 16px;
 }
 
 .headerColor {
-    color: $mainPurple;
+    color: $dark-purple-font;
     font-size: 150%;
     font-weight: 500;
 }
 
 .hr-light {
-    border-top: 3px solid $mainWhite;
+    border-top: 3px solid $main-white-font;
     width: 80px;
 
 }
 
 .hr-light-2 {
-    border-top: 0.5px solid $mainGrey;
+    border-top: 0.5px solid $dark-purple-font;
 }
 
 .font-bold {
     letter-spacing: 2px;
 
     &__main {
-        color: $mainPink;
-        font-size: 150%;
+        color: $dark-purple-font;
+        font-size: 140%;
         font-weight: 500;
     }
 }

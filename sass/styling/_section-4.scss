@@ -3,7 +3,12 @@
     letter-spacing: 4px;
     padding-top: 30px;
     text-align: center;
-    color: $mainGrey;
+    color: $dark-purple-font;
+}
+
+.wrap {
+    background-color: $main-white-background;
+    box-shadow: 0 0 40px #9f8b63;
 }
 
 .column-container {
@@ -16,20 +21,20 @@
 .icons {
     text-align: center;
     font-size: 2.5rem;
-    color: rgb(235, 38, 186);
+    color: $dark-purple-font;
     padding-top: 2.5rem;
 }
 
 .column-title {
     text-align: center;
     font-size: 1.5rem;
-    color: $mainGrey;
+    color: $dark-purple-font;
     margin-bottom: -20px;
 }
 
 .words {
     text-align: center;
-    color: $mainGrey;
+    color: $dark-purple-font;
     font-size: 1rem;
     line-height: 1.5rem;
     margin-top: 2rem;
